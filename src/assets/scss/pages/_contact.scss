@@ -1,0 +1,41 @@
+.contact-container {
+  display: flex;
+}
+
+.contact-text {
+  width: 30%;
+
+  h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .text {
+    margin-bottom: 20px;
+  }
+  p {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  a {
+    color: $danger;
+  }
+}
+
+.contact-form {
+  width: 70%;
+}
+
+@media (max-width: $mediaMaxWidth) {
+  .contact-container {
+    flex-direction: column;
+  }
+  
+  .contact-text {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+}

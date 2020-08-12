@@ -1,0 +1,71 @@
+body {
+  overflow-x: hidden;
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #353353;
+  color: #fff;
+}
+
+.app-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 290px;
+  height: 100vh;
+  border-right: 1px solid rgba(255,255,255,0.1);
+  display: flex;
+  align-items: center;
+
+  nav {
+    width: 100%;
+  }
+  .item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 1;
+    font-weight: bold;
+    transition: all ease 0.2s;
+
+    i {
+      width: 30px;
+    }
+    &:hover {
+      color: $warning;
+    }
+    &.active {
+      color: $warning;
+    }
+  }
+}
+
+  
+.app-main {
+  margin-left: 290px;
+}
+
+section {
+  padding: 30px;
+}
+.section-title {
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+@media (max-width: $mediaMaxWidth) {
+  .app-header {
+    display: none;
+  }
+  .app-main {
+    margin-left: 0;
+  }
+  section {
+    padding: 20px;
+  }
+  .section-title {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,14 @@
+@media print {
+  .app-header {
+    display: none;
+  }
+  .app-main {
+    margin: 0;
+  }
+  .home {
+    height: auto;
+  }
+  .scroll-down {
+    display: none;
+  }
+}

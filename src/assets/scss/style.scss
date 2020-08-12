@@ -1,0 +1,20 @@
+$primary:       #5d77b9;
+$secondary:     #6a6c81;
+$success:       #5da56f;
+$info:          #6094a6;
+$warning:       #ffd15c;
+$danger:        #ff4c60;
+$light:         #fff;
+$dark:          #20212a;
+
+$mediaMaxWidth: 768px;
+
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "base/reboot";
+@import "layout";
+@import "print";
+@import "pages/home";
+@import "pages/about";
+@import "pages/skill";
+@import "pages/experience";
+@import "pages/contact";
