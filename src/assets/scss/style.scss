@@ -7,12 +7,15 @@ $danger:        #ff4c60;
 $light:         #fff;
 $dark:          #20212a;
 
+$border-radius: 1.5rem;
+$input-btn-padding-y: .75rem;
+$input-btn-padding-x: 1rem;
+
 $mediaMaxWidth: 768px;
 
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 @import "base/reboot";
 @import "layout";
-@import "print";
 @import "pages/home";
 @import "pages/about";
 @import "pages/skill";

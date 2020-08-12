@@ -116,3 +116,26 @@
     }
   }
 }
+
+@media print {
+  .about-content {
+    .content {
+      border: 1px solid #000;
+      background: #fff;
+
+      &::before {
+        border-right: 12px solid rgba(0, 0, 0, 1);
+      }
+
+      .bars {
+        .bar {
+          background: #fff;
+  
+          div {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

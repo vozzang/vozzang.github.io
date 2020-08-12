@@ -114,3 +114,9 @@
 @media (max-width: $mediaMaxWidth) {
 
 }
+
+@media print {
+  .home {
+    display: none;
+  }
+}

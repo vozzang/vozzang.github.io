@@ -55,6 +55,10 @@ section {
   font-weight: 700;
 }
 
+.print-block {
+  display: none;
+}
+
 @media (max-width: $mediaMaxWidth) {
   .app-header {
     display: none;
@@ -67,5 +71,21 @@ section {
   }
   .section-title {
     font-size: 2rem;
+  }
+}
+
+@media print {
+  body {
+    background-color: #fff;
+    color: #000;
+  }
+  .app-header {
+    display: none;
+  }
+  .app-main {
+    margin: 0;
+  }
+  .print-block {
+    display: block;
   }
 }
