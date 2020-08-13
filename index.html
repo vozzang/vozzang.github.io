@@ -5,40 +5,46 @@
 	<title>권효주 프로필</title>
 	<meta name="description" content="권효주 - 프로필">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="dist/assets/img/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="./dist/assets/img/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700&display=swap&subset=korean" rel="stylesheet">
-	<link href="dist/assets/css/style.css" rel="stylesheet">
+	<link href="./dist/assets/css/style.css" rel="stylesheet">
 </head>
-<body>
-<header class="app-header">
-	<nav>
-    <a href="#home" class="item">
+<body data-spy="scroll" data-target="#navbar" data-offset="0">
+<header id="navbar" class="app-header">
+	<nav class="nav">
+    <a href="#home" class="nav-link">
       <i>
         <svg height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" stroke="#FFD15C" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="8"/><circle cx="10.5" cy="10.5" r="2"/><circle cx="10.5" cy="10.5" r="5"/></g></svg>
       </i>
       <span>Home</span>
     </a>
-    <a href="#about" class="item">
+    <a href="#about" class="nav-link">
       <i>
         <svg height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg"><path d="m7.5.5c1.65685425 0 3 1.34314575 3 3v1c0 1.65685425-1.34314575 3-3 3s-3-1.34314575-3-3v-1c0-1.65685425 1.34314575-3 3-3zm7 14c0-.2427251 0-.4854502 0-.7281753 0-3.1864098-3.6862915-5.2718247-7-5.2718247s-7 2.0854149-7 5.2718247v.7281753c0 .5522847.44771525 1 1 1h12c.5522847 0 1-.4477153 1-1z" fill="none" stroke="#FFD15C" stroke-linecap="round" stroke-linejoin="round" transform="translate(3 2)"/></svg>
       </i>
       <span>About</span>
     </a>
-    <a href="#skill" class="item">
+    <a href="#skill" class="nav-link">
       <i>
         <svg height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" transform="translate(2 3)"><path d="m11.4540585.95405845h3.5857864c1.1045695 0 2 .8954305 2 2v3.58578644c0 .26521649-.1053568.5195704-.2928932.70710678l-7.29289325 7.29289323c-.78104858.7810486-2.04737854.7810486-2.82842712 0l-3.17157288-3.1715729c-.78104858-.7810486-.78104858-2.04737852 0-2.82842711l7.29289325-7.29289322c.1875364-.18753638.4418903-.29289322.7071068-.29289322z" stroke="#FFD15C" stroke-linecap="round" stroke-linejoin="round"/><path d="m6.03984489 13.9540585-.90290911.6019394c-.91905738.6127049-2.16079606.3643571-2.77350098-.5547002-.08486292-.1272944-.15483981-.2639057-.20855777-.4071535l-1.53002215-4.08005911c-.3389108-.90376213.01599891-1.92063198.84366684-2.41723274l8.57132318-5.1427939" stroke="#FFD15C" stroke-linecap="round" stroke-linejoin="round"/><rect fill="#FFD15C" height="2" rx="1" width="2" x="13.54" y="2.454"/></g></svg>
       </i>
       <span>Skills</span>
     </a>
-    <a href="#experience" class="item">
+    <a href="#service" class="nav-link">
+      <i>
+        <svg height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" stroke="#FFD15C" stroke-linecap="round" stroke-linejoin="round" transform="translate(2 2)"><path d="m.5 8.5 8 4 8.017-4"/><path d="m.5 12.5 8 4 8.017-4"/><path d="m.5 4.657 8.008 3.843 8.009-3.843-8.009-4.157z"/></g></svg>
+      </i>
+      <span>Services</span>
+    </a>
+    <a href="#experience" class="nav-link">
       <i>
         <svg height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" stroke="#FFD15C" stroke-linecap="round" stroke-linejoin="round" transform="translate(2 4)"><path d="m2.5.48528137h11c.5522847 0 1 .44771525 1 1v8.01471863h-13v-8.01471863c0-.55228475.44771525-1 1-1z"/><path d="m1.11803399 9.5h13.76393201c.5522848 0 1 .44771525 1 1 0 .1552451-.0361451.3083582-.1055728.4472136l-1.2763932 2.5527864h-13l-1.2763932-2.5527864c-.24698925-.4939785-.0467649-1.09465154.44721359-1.34164079.13885544-.06942772.2919685-.10557281.4472136-.10557281z" transform="matrix(1 0 0 -1 0 23)"/></g></svg>
       </i>
       <span>Experience</span>
     </a>
-    <a href="#contact" class="item">
+    <a href="#contact" class="nav-link">
       <i>
-        <svg height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" stroke="#FFD15C" stroke-linecap="round" stroke-linejoin="round" transform="matrix(0 -1 1 0 2 17)"><path d="m7 14.5h-4.5c-1.1045695 0-2-.8954305-2-2v-10c0-1.1045695.8954305-2 2-2h7c1.1045695 0 2 .8954305 2 2v7.5"/><path d="m11.5 12.5v4"/><path d="m11.5 12.5v4" transform="matrix(0 1 -1 0 26 3)"/><path d="m2 6 5 3 5-3" transform="matrix(0 1 -1 0 14.5 .5)"/></g></svg>
+        <svg height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" stroke="#FFD15C" stroke-linecap="round" stroke-linejoin="round" transform="translate(2 3)"><path d="m11.4182262 1.21376122c-.904128-.29938651-1.88845542-.46376122-2.9182262-.46376122-4.418278 0-8 3.02593755-8 6.75862069 0 1.45741942.54603279 2.80709561 1.47469581 3.91098161l-.97469581 4.5803977 3.91607376-2.4472652c1.07810761.4571647 2.29544433.7145066 3.58392624.7145066 4.418278 0 8-3.0259376 8-6.75862071 0-.68476204-.1205394-1.34573924-.3446699-1.96861327"/><path d="m14.5.5v4"/><path d="m14.5.5v4" transform="matrix(0 1 -1 0 17 -12)"/></g></svg>
       </i>
       <span>Contact</span>
     </a>
@@ -55,7 +61,7 @@
       <!-- intro -->
       <div class="intro">
         <div class="avatar">
-          <img src="dist/assets/img/avatar.jpg" alt="권효주">
+          <img src="./dist/assets/img/avatar.jpg" alt="권효주">
         </div>
         <h1>권효주</h1>
         <p>#남편 #아빠 #개발자</p>
@@ -88,14 +94,16 @@
       <h2 class="section-title">About Me</h2>
       <div class="about-content">
         <div class="thumb">
-          <img src="dist/assets/img/avatar.jpg" alt="권효주">
+          <img src="./dist/assets/img/avatar.jpg" alt="권효주">
         </div>
         <div class="content">
           <div class="text">
             <h3 class="mb-2 print-block">권효주 <small>(1980.11.20.)</small></h3>
             저는 김포에 사는 Front-End 개발자 권효주 입니다.
             10년 이상의 Front-End 개발 경험과 3년 이상의 Back-End 개발 경험이 있으며, 모바일 우선 접근 방식을 신뢰합니다.
+            개발 경험에 비례한 문제 해결능력을 갖추고 있고,
             프로젝트에 Angular 및 Ionic 도입으로 개발 시간을 단축시킨 성과가 있습니다.
+            믿을만한 개발자를 찾고 계시다면 바로 여기에 있습니다.
           </div>
           <div class="bars">
             <div class="bar-row">
@@ -116,6 +124,36 @@
                 <div style="width: 70%;"></div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-fun-facts">
+        <div class="item">
+          <i class="clock"></i>
+          <div class="detail">
+            <div class="number" id="workingHours">5678</div>
+            <div class="title">Working hours</div>
+          </div>
+        </div>
+        <div class="item">
+          <i class="coffee"></i>
+          <div class="detail">
+            <div class="number" id="cupOfCoffee">10123</div>
+            <div class="title">Cup of coffee</div>
+          </div>
+        </div>
+        <div class="item">
+          <i class="page"></i>
+          <div class="detail">
+            <div class="number" id="webPages">5678</div>
+            <div class="title">Web pages</div>
+          </div>
+        </div>
+        <div class="item">
+          <i class="phone"></i>
+          <div class="detail">
+            <div class="number" id="applications">5</div>
+            <div class="title">Applications</div>
           </div>
         </div>
       </div>
@@ -146,6 +184,7 @@
         <span>MariaDB</span>
         <span>Sequelize</span>
         <span>Socket.io</span>
+        <span>Gulp</span>
         <span>Git</span>
         <span>Google Cloud Platform</span>
       </div>
@@ -153,6 +192,38 @@
     <!-- // container -->
   </section>
   <!-- // skill -->
+
+  <!-- service -->
+  <section id="service" class="service">
+    <!-- container -->
+    <div class="container">
+      <h2 class="section-title">Services</h2>
+      <div class="service-content">
+        <div class="item item-front">
+          <i>
+            <img src="./dist/assets/img/icon-front-end.svg">
+          </i>
+          <h3>Front-End Development</h3>
+          <p>
+            그래픽 디자인과 기술 구현간의 격차를 해소하고, UI/UX 디자인 와이어프레임을 실제 코드로 변환합니다.
+            재사용 가능한 코드 및 라이브러리를 작성하여 빠른 속도와 확장 가능한 애플리케이션을 개발 합니다.
+          </p>
+        </div>
+        <div class="item item-back">
+          <i>
+            <img src="./dist/assets/img/icon-back-end.svg">
+          </i>
+          <h3>Back-End Development</h3>
+          <p>
+            보안 및 디버깅에 중점을 두고, 기능적이고 일관된 코드를 설계하여 지속 가능한 애플리케이션을 개발 합니다.
+            Sequelize ORM을 도입해 직관적이고 빠른 데이터 접근으로 개발 속도를 향상 시킵니다.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- // container -->
+  </section>
+  <!-- // service -->
 
   <!-- experience -->
   <section id="experience" class="experience">
@@ -164,39 +235,60 @@
           <div class="date">2019 ~ 현재 <small>Growteam.io(Side Project)</small></div>
           <h3>Full-Stack Developer</h3>
           <div class="text">
-            개념부터 배포까지 웹 사이트, 모바일 애플리케이션 및 랜딩 페이지를 구현했습니다.
-새로운 반응 형 모바일 우선 접근 방식과 전략으로 모든 출력을 표준화했습니다.
-기술적 타당성을 위해 UX 및 UI 디자인을 평가했습니다.
-필요에 따라 그래프 형식으로 표준 및 임시 보고서를 개발했습니다.
-새로운 기능 개발을 구현하기 위해 제품 팀 구성원과 협력했습니다.
+            <ul>
+              <li>설계 부터 배포까지 웹 사이트, 모바일 애플리케이션 및 API 서비스를 구현했습니다.</li>
+              <li>Angular를 도입하여 웹, 모바일 앱, 데스크탑 앱을 재사용 가능한 코드를 작성하여 빠르게 개발했습니다.</li>
+              <li>Google Cloud Platform에서 서비스하고 있습니다.</li>
+            </ul>
           </div>
         </div>
         <div class="item">
           <div class="date">2012 ~ 현재 <small>(주)휴넷</small></div>
           <h3>Front-End Developer</h3>
           <div class="text">
-            HTML Markup, Angular, Ionic, Node.js, Vue.js, Electron, Socket.io, Sequelize
+            <ul>
+              <li>새로운 프로젝트에 Angular 및 Vue.js를 도입하여 일관된 사용자 경험을 주는 웹 서비스를 빠르게 개발했습니다.</li>
+              <li>새로운 반응형 모바일 우선 접근 방식과 전략으로 모든 UI/UX를 표준화했습니다.</li>
+              <li>효율적인 Front-End 개발을 위한 Gulp기반 seed를 설계 하였습니다.</li>
+            </ul>
           </div>
         </div>
         <div class="item">
           <div class="date">2011 ~ 2012 <small>블루그리드</small></div>
           <h3>Front-End Developer</h3>
           <div class="text">
-            HTML Markup, jQuery, Bootstrap
+            <ul>
+              <li>대규모 프로젝트의 Front-End 개발 구성원으로 참여 하여 주어진 가이드에 맞게 개발했습니다.</li>
+              <li>Front-End 개발 가이드를 만들고 일관된 방향으로 개발될 수 있게 구성원을 리딩하였습니다.</li>
+            </ul>
           </div>
         </div>
         <div class="item">
           <div class="date">2009 ~ 2011 <small>에단아이엔씨</small></div>
           <h3>Front-End Developer</h3>
           <div class="text">
-            HTML Markup, jQuery
+            <ul>
+              <li>대규모 프로젝트의 Front-End 개발 구성원으로 참여 하여 주어진 가이드에 맞게 개발했습니다.</li>
+              <li>jQuery를 도입해 빠르게 UI를 개발했습니다.</li>
+            </ul>
           </div>
         </div>
         <div class="item">
           <div class="date">2009 ~ 2009 <small>딜라스틱커뮤니케이션</small></div>
           <h3>Back-End Developer</h3>
           <div class="text">
-            PHP, MySQL, HTML Markup
+            <ul>
+              <li>PHP로 다양한 웹 서비스를 개발했습니다.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="item">
+          <div class="date">1999 ~ 2009 <small>취미, 프리랜서</small></div>
+          <h3>Full-Stack Developer</h3>
+          <div class="text">
+            <ul>
+              <li>ASP 및 PHP로 다양한 웹 서비스를 개발했습니다.</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -217,32 +309,32 @@
           <p>phone : <a href="tel:010-7464-5033">010-7464-5033</a></p>
         </div>
         <div id="contactUsForm" class="contact-form">
-          <form>
+          <form action="https://formspree.io/mbjzbzgg" method="POST">
             <div class="row">
 							<div class="column col-md-6">
 								<div class="form-group">
-									<input type="text" class="form-control" name="InputName" id="InputName" placeholder="이름" required="required" data-error="Name is required.">
+                  <input type="text" name="name" class="form-control" placeholder="이름" required>
 									<div class="help-block with-errors"></div>
 								</div>
 							</div>
 							
 							<div class="column col-md-6">
 								<div class="form-group">
-									<input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="이메일 주소" required="required" data-error="Email is required.">
+									<input type="email" class="form-control" name="_replyto" placeholder="이메일 주소" required>
 									<div class="help-block with-errors"></div>
 								</div>
 							</div>
 
 							<div class="column col-md-12">
 								<div class="form-group">
-									<input type="text" class="form-control" id="InputSubject" name="InputSubject" placeholder="제목" required="required" data-error="Subject is required.">
+									<input type="text" class="form-control" name="_subject" placeholder="제목" required>
 									<div class="help-block with-errors"></div>
 								</div>
 							</div>
 					
 							<div class="column col-md-12">
 								<div class="form-group">
-									<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" placeholder="내용" required="required" data-error="Message is required."></textarea>
+									<textarea name="message" class="form-control" rows="5" placeholder="내용" required></textarea>
 									<div class="help-block with-errors"></div>
 								</div>
 							</div>
@@ -255,17 +347,36 @@
     <!-- // container -->
   </section>
   <!-- // contact -->
-
 </main>
 <!-- // main -->
-<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 <script>
-  var contactUsForm = new Vue({
-    el: '#contactUsForm',
-    data: {
-      message: '안녕하세요 Vue!'
+  var startDay = new Date(2009, 01, 01).getTime();
+  var now = new Date().getTime();
+  var gap = Math.floor((now - startDay) / (1000 * 60 * 60 * 24)) - 1200;
+  var workingHours = 8 * gap;
+  var cupOfCoffee = Math.floor(2 * gap);
+  var webPages = 5 * gap;
+  var applications = 12;
+  $('#workingHours').text(workingHours);
+  $('#cupOfCoffee').text(cupOfCoffee);
+  $('#webPages').text(webPages);
+  $('#applications').text(applications);
+
+  $("#navbar a, .scroll-down a , .intro a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 200, function(){
+        window.location.hash = hash;
+      });
     }
   });
-  </script>
+</script>
 </body>
 </html>

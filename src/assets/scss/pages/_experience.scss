@@ -46,15 +46,20 @@
 }
 
 @media (max-width: $mediaMaxWidth) {
-
+  .experience-timeline {
+    padding: 20px 15px;
+  }
 }
 
 @media print {
-  .experience-timeline {
-    border: 1px solid #000;
-
-    .item {
-      padding-left: 0;
-    }
+  .experience {
+    page-break-before: always;
   }
+  // .experience-timeline {
+  //   border: 1px solid #000;
+
+  //   .item {
+  //     padding-left: 0;
+  //   }
+  // }
 }
