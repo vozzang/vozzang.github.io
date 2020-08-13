@@ -129,6 +129,10 @@
 }
 
 @media (max-width: $mediaMaxWidth) {
+  .pdf-down {
+    display: none;
+  }
+
   .about-content {
     flex-direction: column;
 
@@ -194,6 +198,9 @@
 }
 
 @media print {
+  .pdf-down {
+    display: none;
+  }
   // .about-content {
   //   .content {
   //     border: 1px solid #000;
