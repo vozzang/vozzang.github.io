@@ -51,6 +51,20 @@
     .text {
       line-height: 24px;
     }
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      padding-left: 16px;
+
+      span {
+        margin: 0 10px 10px 0;
+        padding: 6px 12px;
+        border-radius: 20px;
+        font-size: 14px;
+        color: #fff;
+        background: rgba(255, 255, 255, 0.1);
+      }
+    }
   }
 }
 
@@ -71,4 +85,10 @@
   //     padding-left: 0;
   //   }
   // }
+}
+
+@media print {
+  .education {
+    page-break-before: always;
+  }
 }
