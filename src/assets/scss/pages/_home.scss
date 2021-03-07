@@ -118,9 +118,13 @@
 }
 
 @media print {
-  // .home {
-  //   display: none;
-  // }
+  .home {
+    .intro {
+      .mt-4 {
+        display: none;
+      }
+    }
+  }
   .scroll-down {
     display: none;
   }
