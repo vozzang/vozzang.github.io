@@ -12,6 +12,14 @@
       border-radius: 50%;
     }
   }
+  .pdf-down {
+    display: flex;
+    align-items: center;
+
+    span {
+      margin-left: 5px;
+    }
+  }
   .content {
     position: relative;
     flex: 1;
